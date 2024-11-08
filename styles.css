@@ -6,23 +6,29 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
 }
-.container{
-
+.container {
 }
-body{
-    background-color: #060607;
+body {
+  background-color: #1a1a1f;
 }
-#navbar{
-    display: flex;
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#logo{
-    max-width: 70%;
+nav a{
+  margin: 10px 5px;
 }
-.navlinks{
-    text-decoration: none;
-
+#logo {
+  max-width: 32%;
+}
+.navlinks {
+  text-decoration: none;
+  color: white;
+  
 }
