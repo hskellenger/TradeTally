@@ -1,34 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-html,
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-}
-.container {
-}
-body {
-  background-color: #1a1a1f;
-}
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav a{
-  margin: 10px 5px;
-}
 #logo {
   max-width: 32%;
-}
-.navlinks {
-  text-decoration: none;
-  color: white;
-  
 }
